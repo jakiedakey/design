@@ -8,4 +8,8 @@ Home page
 
 The source for this page is in `content/index.md`.
 
-This is a sample home page written in markdown with some frontmatter defined.
+
+
+Mitt namn är Jakob, bor i Göteborg läser denna kursen på fritiden.
+
+![image](./assets/img/me.jpg)
