@@ -1,0 +1,51 @@
+/* report.scss */
+.landingpage {
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-auto-rows: 100px;
+    column-gap: 25px;
+    row-gap: 25px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.landingpage h1 {
+    grid-column: span 3;
+    justify-self: center;
+    font-size: 40px;
+}
+
+.tech-box1 {
+    background-color: #e5ffe5;
+    grid-column: span 1;
+}
+
+.tech-box2 {
+    background-color: #b2ffb2;
+    grid-column: span 2;
+}
+
+.tech-box3 {
+    background-color: #4f7942;
+    grid-column: span 3;
+}
+
+@media (max-width: 767px) {
+    .tech-box {
+        grid-column: span 3;
+    }
+
+    .kmom-box {
+        grid-column: span 3;
+    }
+
+    .landingpage h1 {
+        grid-column: span 3;
+        justify-self: center;
+        font-size: 30px;
+    }
+
+    .landingpage {
+        grid-template-columns: 100px 100px 100px;
+    }
+}
