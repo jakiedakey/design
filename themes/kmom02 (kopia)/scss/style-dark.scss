@@ -1,0 +1,62 @@
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+
+@import 'blockquotes';
+@import 'code';
+@import 'logo';
+@import 'report';
+@import 'technology';
+
+@use 'variables' as * with (
+    $main-background-color: #333,
+    $main-font-color: #fff
+);
+
+@use 'typography';
+@use 'container';
+
+@use 'header';
+@use 'footer';
+
+@use 'blockquotes';
+@use 'code';
+
+@use 'technology';
+@use 'tables';
+
+@use 'gallery';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: $background-color;
+    padding: 0 10px;
+}
+
+* {
+    color: $font-color;
+}
+
+.main {
+    background-color: #ff0;
+}

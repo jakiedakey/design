@@ -1,0 +1,36 @@
+@use 'variables' as *;
+
+body {
+    line-height: 1.4;
+    font-family: 'Montserrat', sans-serif;
+    color: $main-font-color;
+}
+
+p {
+    font-size: 1.4em;
+    margin-bottom: 1.96rem;
+}
+
+* {
+    font-family: 'Jura', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'Jaro', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}

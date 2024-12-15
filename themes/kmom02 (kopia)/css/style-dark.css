@@ -1,96 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Jaro:opsz@6..72&family=Jura:wght@300..700&display=swap");
-body {
-  line-height: 1.4;
-  font-family: "Montserrat", sans-serif;
-  color: #000;
-}
-
-p {
-  font-size: 1.4em;
-  margin-bottom: 1.96rem;
-}
-
-* {
-  font-family: "Jura", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-
-h1 {
-  font-family: "Jaro", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Fjalla One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-blockquote {
-  font-style: italic;
-  margin-left: 1em;
-  padding-left: 1em;
-  border-left: 0.5em solid #f5f5f5;
-}
-
-code {
-  margin: 0 0.1em;
-  padding: 0.1em 0.2em;
-  border: 1px solid #ccc;
-  border-radius: 0.3em;
-  background: #f5f5f5;
-  font-family: monospace;
-  font-size: 0.85rem;
-  line-height: 1.9824;
-}
-
-pre {
-  padding: 0 1em;
-  border: 1px solid #ccc;
-  border-radius: 0.3em;
-  background: #f5f5f5;
-}
-
-pre code {
-  display: block;
-  margin: 0;
-  padding: 1.1111em 0;
-  border: 0 none;
-  background: transparent;
-  overflow-x: auto;
-  line-height: 1.4;
-}
-
-/* technology.scss */
-.displaypage {
-  display: flex;
-}
-
-.sidebar {
-  flex: 1;
-}
-
-.article-content {
-  flex: 6;
-}
-
-@media (max-width: 767px) {
-  .sidebar {
-    display: none;
-  }
-}
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
 .fa,
 .fas,
 .far,
@@ -6615,23 +6527,28 @@ pre code {
     display: none;
   }
 }
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", sans-serif;
+}
+
 body {
-  background-color: #be96fa;
+  background-color: #f3f6f4;
   padding: 0 10px;
-}
-
-.site-header {
-  background-color: #fabe96;
-}
-
-main {
-  background-color: #be96fa;
-}
-
-.footer {
-  background-color: #96fabe;
 }
 
 * {
   color: #000;
+}
+
+.main {
+  background-color: #ff0;
 }

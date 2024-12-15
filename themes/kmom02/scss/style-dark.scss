@@ -1,4 +1,7 @@
-@use 'variables/_variables' as *;
+@use 'variables' as * with (
+    $background-color: #333,
+    $font-color: #fff
+);
 
 @use 'typography';
 
@@ -34,18 +37,19 @@ body {
     padding: 0 10px;
 }
 
-.site-header {
-    background-color: $header-background-color;
+* {
+    color: $font-color;
 }
 
 main {
     background-color: $background-color;
 }
 
-.footer {
-    background-color: $footer-background-color;
+.nav a,
+.nav-toggle {
+    color: $font-color;
 }
 
-* {
-    color: $font-color;
+img {
+    filter: grayscale(50%);
 }

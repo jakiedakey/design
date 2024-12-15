@@ -6616,22 +6616,23 @@ pre code {
   }
 }
 body {
-  background-color: #be96fa;
+  background-color: #333;
   padding: 0 10px;
 }
 
-.site-header {
-  background-color: #fabe96;
+* {
+  color: #fff;
 }
 
 main {
-  background-color: #be96fa;
+  background-color: #333;
 }
 
-.footer {
-  background-color: #96fabe;
+.nav a,
+.nav-toggle {
+  color: #fff;
 }
 
-* {
-  color: #000;
+img {
+  filter: grayscale(50%);
 }
